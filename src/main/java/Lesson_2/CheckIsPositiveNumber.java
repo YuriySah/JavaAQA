@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class CheckIsPositiveNumber {
     public static void main(String[] args) {
         Scanner value = new Scanner(System.in);
+        System.out.println("Введите отрицательное или положительно число:");
         int number = value.nextInt();
         checkIsPositive(number);
     }

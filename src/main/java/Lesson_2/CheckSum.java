@@ -6,7 +6,9 @@ import java.util.Scanner;
 public class CheckSum {
     public static void main(String[] args) {
         Scanner value = new Scanner(System.in);
+        System.out.println("Введите первое положительно или отрицательное число");
         int a = value.nextInt();
+        System.out.println("Введите второе положительно или отрицательное число");
         int b = value.nextInt();
         checkSumInterval(a, b);
     }

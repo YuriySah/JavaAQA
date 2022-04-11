@@ -6,8 +6,11 @@ import java.util.Scanner;
 public class CheckLeapYear {
     public static void main(String[] args) {
         Scanner value = new Scanner(System.in);
-        int year = value.nextInt();;
-        checkIsLeapYear(year);
+        System.out.println("Введите год:");
+        int year = value.nextInt();
+        boolean isLeapYear;
+        isLeapYear = checkIsLeapYear(year);
+        System.out.println(isLeapYear);
     }
 
     private static boolean checkIsLeapYear(int year) {
